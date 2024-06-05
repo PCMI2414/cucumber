@@ -1,6 +1,6 @@
 import { Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps';
 
-Given('Pagina Login SOC', function() {
+Given('Pagina Login SOCa', function() {
     cy.visit("https://liderbcicolaboradores-qa.retailcard.cl/")
     cy.wait(2000)
 })
